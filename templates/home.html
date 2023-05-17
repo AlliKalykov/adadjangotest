@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Привет, мир</h1>
+    {% for item in datas %}
+        <p>{{ item.name_string }} возраст {{ item.age_int }}</p>
+    {% endfor %}
+</body>
+</head>
